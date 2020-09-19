@@ -1,9 +1,13 @@
 import React from 'react';
 import ControlledInput from './component/ControlledInput';
 import MyComponent from './component/MyComponent';
+import MyForm from './component/MyForm';
+import PassCallBackAsProps from './component/PassCallBackAsProps';
+import PassStateAsProps from './component/PassStateAsProps';
 import SimpleCounter from './component/SimpleCounter';
 import { Tittle } from './component/Tittle';
 import ToggleAnElement from './component/ToggleAnElement';
+import UseComponentDidMount from './component/UseComponentDidMount';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <MyComponent />
       <SimpleCounter />
       <ControlledInput />
+      <MyForm />
+      <PassStateAsProps />
+      <PassCallBackAsProps />
+      <UseComponentDidMount />
     </div>
   );
 }

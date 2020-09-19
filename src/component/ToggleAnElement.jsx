@@ -25,9 +25,9 @@ export default class ToggleAnElement extends Component {
           );
         } else {
           return (
-            <div className="w-full md:w-1/2 px-3 mb-4 border-gray-600 rounded border-2">
+            <div className="div-challenge">
               <h1 className="text-xl text-blue-900 font-bold mb-2">Reto: Use State to Toggle an ElementPassed:</h1>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={this.toggleVisibility}>Click Me</button>
+              <button className="btn" onClick={this.toggleVisibility}>Click Me</button>
             </div>
           );
         }

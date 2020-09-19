@@ -3,7 +3,7 @@
 @tailwind components;
 
 .div-challenge {
-  @apply w-full px-3 mb-4 border-gray-600 rounded border-2;
+  @apply w-full px-3 mb-4 border-gray-600 rounded border-2 bg-gray-300 p-2 shadow-lg;
 }
 
 @screen md {
@@ -22,6 +22,14 @@
 
 .btn:hover {
   @apply bg-blue-700;
+}
+
+.input-class {
+  @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-blue-500 rounded py-3 px-4 mb-3 leading-tight;
+}
+
+.input-class:focus {
+  @apply outline-none bg-white;
 }
 
 @tailwind utilities;  

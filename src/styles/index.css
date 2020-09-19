@@ -615,6 +615,11 @@ video {
   border-color: rgba(113, 128, 150, var(--border-opacity));
   border-radius: 0.25rem;
   border-width: 2px;
+  --bg-opacity: 1;
+  background-color: #e2e8f0;
+  background-color: rgba(226, 232, 240, var(--bg-opacity));
+  padding: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 768px) {
@@ -651,6 +656,37 @@ video {
   --bg-opacity: 1;
   background-color: #2b6cb0;
   background-color: rgba(43, 108, 176, var(--bg-opacity));
+}
+
+.input-class {
+  -webkit-appearance: none;
+          appearance: none;
+  display: block;
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--border-opacity));
+  border-radius: 0.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.input-class:focus {
+  outline: 0;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
 .space-y-0 > :not(template) ~ :not(template) {

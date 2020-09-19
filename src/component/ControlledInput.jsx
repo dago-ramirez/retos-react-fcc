@@ -22,7 +22,7 @@ export default class ControlledInput extends Component {
                 <label className="block uppercase tracking-wide text-azul text-md font-bold mb-2" htmlFor="grid-first-name">
                     Controlled Input:
                 </label>
-                <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-blue-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" value={this.state.input} onChange={this.handleOnChange} />
+                <input className="input-class" id="grid-first-name" value={this.state.input} onChange={this.handleOnChange} />
                 <p className="text-green-900 text-xl font-bold">{this.state.input}</p>
             </div>
         )
