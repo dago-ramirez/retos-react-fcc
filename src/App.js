@@ -1,21 +1,21 @@
 import React from 'react';
-import AddEventListener from './component/AddEventListener';
-import CheckUserAge from './component/CheckUserAge';
-import ConciseConditional from './component/ConciseConditional';
-import ControlledInput from './component/ControlledInput';
-import ControllerEvens from './component/ControllerEvens';
-import GameOfChance from './component/GameOfChance';
-import GateKeeper from './component/GateKeeper';
-import MagicEightBall from './component/MagicEightBall';
-import MyComponent from './component/MyComponent';
-import MyForm from './component/MyForm';
-import MyToDoList from './component/MyToDoList';
-import PassCallBackAsProps from './component/PassCallBackAsProps';
-import PassStateAsProps from './component/PassStateAsProps';
-import SimpleCounter from './component/SimpleCounter';
-import { Tittle } from './component/Tittle';
-import ToggleAnElement from './component/ToggleAnElement';
-import UseComponentDidMount from './component/UseComponentDidMount';
+import AddEventListener from './components/AddEventListener';
+import CheckUserAge from './components/CheckUserAge';
+import ConciseConditional from './components/ConciseConditional';
+import ControlledInput from './components/ControlledInput';
+import ControllerEvens from './components/ControllerEvens';
+import GameOfChance from './components/GameOfChance';
+import GateKeeper from './components/GateKeeper';
+import MagicEightBall from './components/MagicEightBall';
+import MyComponent from './components/MyComponent';
+import MyForm from './components/MyForm';
+import MyToDoList from './components/MyToDoList';
+import PassCallBackAsProps from './components/PassCallBackAsProps';
+import PassStateAsProps from './components/PassStateAsProps';
+import SimpleCounter from './components/SimpleCounter';
+import { Tittle } from './components/Tittle';
+import ToggleAnElement from './components/ToggleAnElement';
+import UseComponentDidMount from './components/UseComponentDidMount';
 
 function App() {
   return (

@@ -10,7 +10,8 @@ export default class MyToDoList extends Component {
         super(props);
         // change code below this line
         this.state = {
-            userInput: ''
+            userInput: '',
+            toDoList: []
         }
         // change code above this line
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -28,12 +29,12 @@ export default class MyToDoList extends Component {
         });
     }
     render() {
-        const items = null; // change code here
-        console.log(this.state.userInput)
+        const items = this.state.toDoList.map((item, i) => <li className="output-class" key={i}>{item}</li>);
         return (
             <div className="div-challenge">
                 <h1 className="challenge-tittle">Reto: Use Array.map() to Dynamically Render Elements</h1>
                 <textarea
+                    className="border border-blue-500 rounded py-3 px-4 mb-3"
                     onChange={this.handleChange}
                     value={this.state.userInput}
                     style={textAreaStyles}
