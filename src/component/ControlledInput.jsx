@@ -18,12 +18,12 @@ export default class ControlledInput extends Component {
     render() {
         return (
             <div className="div-challenge">
-                <h1 className="challenge-tittle">Reto: Create a Controlled Input:</h1>
-                <label className="block uppercase tracking-wide text-azul text-md font-bold mb-2" htmlFor="grid-first-name">
+                <h1 className="challenge-tittle">Reto: Create a Controlled Input</h1>
+                <label className="label" htmlFor="grid-first-name">
                     Controlled Input:
                 </label>
                 <input className="input-class" id="grid-first-name" value={this.state.input} onChange={this.handleOnChange} />
-                <p className="text-green-900 text-xl font-bold">{this.state.input}</p>
+                <p className="output-class">{this.state.input}</p>
             </div>
         )
     }

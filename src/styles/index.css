@@ -689,6 +689,25 @@ video {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.output-class {
+  --text-opacity: 1;
+  color: #22543d;
+  color: rgba(34, 84, 61, var(--text-opacity));
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.label {
+  display: block;
+  letter-spacing: 0.025em;
+  --text-opacity: 1;
+  color: #040c4b;
+  color: rgba(4, 12, 75, var(--text-opacity));
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));

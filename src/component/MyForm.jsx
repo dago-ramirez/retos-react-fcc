@@ -31,7 +31,7 @@ export default class MyForm extends Component {
                     <input className="input-class" value={this.state.input} onChange={this.handleChange} />
                     <button className="btn" type='submit'>Submit!</button>
                 </form>
-                <p className="text-green-900 text-xl font-bold">{this.state.submit}</p>
+                <p className="output-class">{this.state.submit}</p>
             </div>
         );
     }

@@ -16,9 +16,9 @@ export default class MyComponent extends Component {
     render() {
       return (
         <div className="div-challenge">
-          <h1 className="challenge-tittle">Reto: Set State with this.setState:</h1>
+          <h1 className="challenge-tittle">Reto: Set State with this.setState</h1>
           <button className="btn" onClick={this.handleClick}>Click Me</button>
-          <h1 className="text-3xl text-green-900 font-bold mb-2">{this.state.name}</h1>
+          <h1 className="output-class">{this.state.name}</h1>
         </div>
       );
     }

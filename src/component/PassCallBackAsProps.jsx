@@ -28,7 +28,7 @@ class GetInput extends Component {
     render() {
         return (
             <div>
-                <label className="block uppercase tracking-wide text-azul text-md font-bold mb-2">
+                <label className="label">
                     Get Input:
                 </label>
                 <input className="input-class"
@@ -43,8 +43,8 @@ class RenderInput extends Component {
     render() {
         return (
             <div>
-                <h3 className="block uppercase tracking-wide text-azul text-md font-bold mb-2">Input Render:</h3>
-                <p className="text-green-900 text-xl font-bold">{this.props.input}</p>
+                <h3 className="label">Input Render:</h3>
+                <p className="output-class">{this.props.input}</p>
             </div>
         );
     }

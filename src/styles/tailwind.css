@@ -32,4 +32,12 @@
   @apply outline-none bg-white;
 }
 
+.output-class {
+  @apply text-green-900 text-xl font-bold;
+}
+
+.label {
+  @apply block tracking-wide text-azul text-lg font-bold mb-2;
+}
+
 @tailwind utilities;  

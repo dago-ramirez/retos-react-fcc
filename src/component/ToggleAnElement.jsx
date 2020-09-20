@@ -26,7 +26,7 @@ export default class ToggleAnElement extends Component {
         } else {
           return (
             <div className="div-challenge">
-              <h1 className="text-xl text-blue-900 font-bold mb-2">Reto: Use State to Toggle an ElementPassed:</h1>
+              <h1 className="text-xl text-blue-900 font-bold mb-2">Reto: Use State to Toggle an ElementPassed</h1>
               <button className="btn" onClick={this.toggleVisibility}>Click Me</button>
             </div>
           );

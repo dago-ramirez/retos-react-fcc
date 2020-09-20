@@ -1,7 +1,15 @@
 import React from 'react';
+import AddEventListener from './component/AddEventListener';
+import CheckUserAge from './component/CheckUserAge';
+import ConciseConditional from './component/ConciseConditional';
 import ControlledInput from './component/ControlledInput';
+import ControllerEvens from './component/ControllerEvens';
+import GameOfChance from './component/GameOfChance';
+import GateKeeper from './component/GateKeeper';
+import MagicEightBall from './component/MagicEightBall';
 import MyComponent from './component/MyComponent';
 import MyForm from './component/MyForm';
+import MyToDoList from './component/MyToDoList';
 import PassCallBackAsProps from './component/PassCallBackAsProps';
 import PassStateAsProps from './component/PassStateAsProps';
 import SimpleCounter from './component/SimpleCounter';
@@ -21,6 +29,14 @@ function App() {
       <PassStateAsProps />
       <PassCallBackAsProps />
       <UseComponentDidMount />
+      <AddEventListener />
+      <ControllerEvens />
+      <MagicEightBall />
+      <ConciseConditional />
+      <CheckUserAge />
+      <GameOfChance />
+      <GateKeeper />
+      <MyToDoList />
     </div>
   );
 }
